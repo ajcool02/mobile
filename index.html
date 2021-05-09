@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demopage</title>
+    <style>
+    .btn-primary.custom-btn {
+      background-color: rgba(0, 0, 0, 0.308);
+      border-color: rgba(0, 0, 0, 0.274);
+    }
+  </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+        <a class="navbar-brand" href="#"><b><i>ajcool</i></b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">aboutus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contactus</a>
+            </li>
+          </ul>
+          <button class="btn btn-primary custom-btn ml-auto" data-target="#m1" data-toggle="modal">login </button>
+
+                       
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1580191947416-62d35a55e71d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2VsY29tZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="First slide" height="500px">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1511227499331-25c621db940e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGVsbG98ZW58MHx8MHxibGFja3w%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Second slide" height="500px">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://images.unsplash.com/photo-1526614180703-827d23e7c8f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGhhbmslMjB5b3V8ZW58MHx8MHxibGFja3w%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Third slide" height="500px">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="modal" id="m1" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">login form</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          <div>
+           <div class="modal-body">
+              <div class="container">
+                
+                <form action="">
+                  <div class="form-group">
+                    <label for="email">Email or username:</label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter email or username" name="email or username">
+                  </div>
+                  <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                  </div>
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      
+      
+      
+      
+      </div>
+      <h1><b>Aboutus</b></h1>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nihil asperiores minus hic ipsa quaerat distinctio, totam praesentium, odio quasi illo a? Exercitationem quae unde consectetur officiis, similique, in quaerat sed qui eaque architecto eius cupiditate id sit iste suscipit porro! Consectetur, molestiae debitis. Commodi dicta eligendi earum quas? Necessitatibus nobis culpa rem nemo, sunt, ea accusamus odit repellat quaerat eligendi neque quas, rerum blanditiis suscipit voluptatibus praesentium impedit. Totam enim quae maxime dolor officia nobis assumenda nostrum officiis corporis! Iusto, illo eligendi necessitatibus veritatis repellat assumenda excepturi obcaecati optio magnam? Recusandae, cupiditate laboriosam ipsam ex labore ab et similique voluptas hic explicabo officia alias asperiores, obcaecati reiciendis quo dolorum temporibus aut officiis. Aut inventore vel reprehenderit ab expedita dolorem nostrum, amet, numquam quaerat laudantium impedit pariatur commodi tempora quod fugiat quae, eum praesentium nobis eius error. Facilis, temporibus placeat reiciendis aut autem aliquid, nemo consequuntur optio, eaque minus veniam quaerat laborum cumque quae vel. A, et quos. Dolore deserunt dolor consectetur, voluptatem architecto, cum ducimus officiis aliquam eaque dolorem nisi omnis ullam sapiente consequatur sunt, sint unde! Labore minima numquam iure accusantium dolore, eveniet corporis voluptatibus hic sint doloribus recusandae neque nulla perferendis provident expedita, culpa mollitia quam, magnam aliquid sunt eius! Laborum culpa, assumenda iure beatae cupiditate ut eius voluptatem veritatis nobis. Rerum eius dolorem fugit possimus vero repudiandae eligendi numquam ea optio rem, mollitia excepturi, minus quibusdam provident quae nobis. Aliquid ipsa placeat exercitationem ipsam velit labore natus, voluptatum, reprehenderit maxime libero quibusdam consequatur, veritatis deserunt laudantium. Molestiae modi accusamus qui. Error, similique. Dolores quibusdam optio quaerat harum exercitationem id velit totam dolore earum ducimus! Nostrum, explicabo! Deleniti tempora vel quia earum molestias, suscipit, ad magnam saepe omnis possimus, voluptatum adipisci dolor placeat natus perferendis! Soluta debitis iure possimus natus culpa dignissimos dolorum ab accusantium ipsa voluptate?
+    </div>
+    <div>
+      <h1><b>Aboutus</b></h1>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et dolor perspiciatis similique ipsum doloremque illo praesentium ducimus aliquam perferendis! Veritatis dolor ipsum blanditiis, excepturi nam doloribus totam unde magnam voluptate illum, repellat reprehenderit quibusdam eligendi officiis veniam minus? Quidem porro molestias, voluptatibus esse facilis inventore quasi, suscipit sapiente minima nesciunt nam exercitationem. Molestias deserunt assumenda incidunt consectetur beatae! Labore rem esse dignissimos voluptatibus perspiciatis omnis fugit eaque consequatur saepe, nesciunt delectus doloribus aliquam aspernatur. Quidem ut et soluta quasi est? Quo repellat placeat magni maxime quaerat quia facilis error consequuntur. Cupiditate rem reprehenderit vel unde ea nisi quae. Aliquam ipsa maxime magnam libero iste, aliquid neque eveniet distinctio veritatis reprehenderit? Perferendis voluptatibus animi deleniti ratione, consequuntur at reprehenderit fugit debitis ex temporibus esse ut optio, sed, vero quibusdam tempore nulla non saepe maxime accusamus deserunt. Odit nihil quos facere perspiciatis eum impedit praesentium voluptatem. Assumenda atque repellendus modi magni saepe maxime voluptatum minima ad eveniet debitis excepturi accusamus voluptate ut sapiente obcaecati, maiores repellat? Neque temporibus, porro labore impedit voluptatibus, dolore, nesciunt a libero sint modi accusamus unde! Quam, voluptatibus dolore. Nam aspernatur vero et explicabo facilis unde vel laudantium, possimus ipsum necessitatibus autem? Minus illum nesciunt, sapiente molestias est facilis corrupti explicabo esse nostrum quia ex dignissimos voluptates. Sed corrupti nisi molestias similique voluptatibus quia, harum quis vel? Voluptatem, rerum. Harum, a temporibus. Quasi, tempore at illum est natus quia corporis in unde dolorum facilis neque molestias, aperiam alias. Expedita aperiam nobis adipisci qui animi a delectus ipsam amet numquam eligendi architecto ex aliquam, earum in ipsum magnam, molestiae distinctio excepturi. Molestiae vitae repellat expedita quis, eaque cum accusamus. Ipsam suscipit id soluta facilis magnam facere voluptatum? Quibusdam libero fugit, deserunt ad vitae molestias corporis in nemo distinctio! Doloribus tempore, quibusdam vitae quis quae placeat dolore voluptate. Dolores voluptate suscipit provident corporis fugit a, aliquam laborum consequatur quasi mollitia, tempora magnam ullam! Necessitatibus, ipsum recusandae. Accusantium vitae, beatae labore temporibus quasi harum nulla molestiae cumque cupiditate natus laborum! Odio voluptates ex iusto perspiciatis, dicta at dignissimos, soluta ratione recusandae placeat totam molestiae ipsum deleniti ducimus velit minima! Similique, quibusdam ducimus velit magni architecto, molestias accusantium odit aspernatur quod illum laudantium? Officia aliquam officiis temporibus quidem commodi doloribus vel similique, quis accusantium, nobis, quo praesentium blanditiis soluta incidunt sapiente. Odit, dicta similique. Quo, culpa quibusdam beatae accusantium magnam dolores iste nesciunt iure, dolorem itaque quas debitis ea voluptatem. Atque, esse.
+    </div>
+    <div><h1>projects</h1></div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore vitae impedit velit quos harum officia culpa adipisci praesentium ex natus ab illum odit porro dicta quasi labore libero, deserunt deleniti, suscipit dolorum! Minima mollitia a quia asperiores quod maiores earum officiis odio incidunt fugit saepe animi, laboriosam molestiae consequatur ducimus laudantium possimus assumenda aliquid! Rem quae maxime aliquid natus impedit, sit vel ipsa voluptates unde libero sequi nam autem doloribus fugit expedita. Porro asperiores atque, nostrum aliquam architecto alias amet rerum autem ipsum tenetur beatae quaerat quo odio accusantium molestias libero quia dolorem, reiciendis itaque sunt est enim perferendis dignissimos culpa! Autem nesciunt corrupti expedita eos fugit, porro ut sapiente facilis repellat maiores minima aperiam impedit harum cupiditate? Laborum beatae impedit minus repellendus provident quas, fugit cupiditate hic, porro quam fuga quae molestiae libero optio reiciendis quod sequi recusandae aliquam veniam deleniti perferendis quibusdam. Labore aperiam cupiditate animi praesentium ratione, quia dolores ut quis doloribus quam suscipit, distinctio hic eaque a officia similique quo blanditiis optio? Odio, voluptate nostrum. Sequi reprehenderit tenetur amet? Consectetur quas dolore sint ex consequuntur in rem optio deserunt corrupti eveniet! Rerum praesentium velit eum. Recusandae at accusamus voluptates tempora provident temporibus nulla ipsam porro ab dignissimos adipisci nobis voluptas explicabo quia, neque sint obcaecati, beatae saepe repellat quaerat! Eum incidunt nobis, minus, porro nisi autem eveniet in et numquam veritatis natus consequuntur illum tempora explicabo. Pariatur nostrum modi tempore, perspiciatis inventore ipsum provident placeat sapiente excepturi neque consequuntur facere aliquam eaque, vel reiciendis culpa fuga deserunt fugiat rem dicta nihil at, adipisci minus ex? Similique, sequi! Provident quas officia quod nobis. Pariatur deserunt hic odio voluptate aliquam? Earum laudantium esse ducimus similique veritatis, molestiae expedita blanditiis! Earum sequi natus aspernatur ad commodi officia voluptate voluptatem veritatis culpa minus. Nemo rerum facilis quaerat dicta laudantium?
+    <div>
+      <h1><b>contactus</b></h1>
+      <!-- Start Contact Form -->
+<form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+<div class="form-group">
+<div class="controls">
+<input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="controls">
+<input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="controls">
+<input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+<div class="help-block with-errors"></div>
+</div>
+</div>
+<div class="form-group">
+<div class="controls">
+<textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+<div class="help-block with-errors"></div>
+</div>  
+</div>
+
+<button type="submit" id="submit" class="btn btn-effect"><i class="fa fa-check"></i> Send Message</button>
+<div id="msgSubmit" class="h3 text-center hidden"></div> 
+<div class="clearfix"></div>   
+
+</form>
+    </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
